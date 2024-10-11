@@ -4,6 +4,7 @@ import {Routes ,Route} from "react-router-dom"
 import Home from './pages/Home/Home'
 import Coin from "./pages/Coin/Coin"
 import Footer from './components/Navbar/Footer/Footer'
+import Signup from './pages/Signup/Signup'
 const App = () => {
   return (
     <div className='App'>
@@ -11,7 +12,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/coin/:coinId" element={<Coin/>}/>
-      </Routes>
+        <Route  path='/signup' element={<Signup/>}></Route>      
+       </Routes>
       <Footer/>
       </div>
   )
