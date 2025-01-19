@@ -8,8 +8,7 @@ import Footer from './components/Navbar/Footer/Footer'
 const App = () => {
   return (
     <div className='App'>
-      <Navbar/> git remote remove origin
-
+      <Navbar/> 
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/coin/:coinId" element={<Coin/>}/>
